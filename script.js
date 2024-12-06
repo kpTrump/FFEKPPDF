@@ -4,6 +4,8 @@ const pdfParse = require('pdf-parse');
 const xlsx = require('xlsx');
 
 // Path to the folder containing PDF files
+const currentPath = window.location.pathname;
+console.log(currentPath);
 const pdfFolderPath = 'C:/Users/konradas.peciulis/Desktop/Empty_Folder';
 console.log(pdfFolderPath);
 // Read all PDF files in the directory
