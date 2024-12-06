@@ -5,7 +5,7 @@ const xlsx = require('xlsx');
 
 // Path to the folder containing PDF files
 const pdfFolderPath = 'C:/Users/konradas.peciulis/Desktop/Empty_Folder';
-
+console.log(pdfFolderPath);
 // Read all PDF files in the directory
 fs.readdir(pdfFolderPath, (err, files) => {
   if (err) {
